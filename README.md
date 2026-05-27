@@ -2,7 +2,7 @@
 
 # Shreyas Joshi
 
-**MS ECE @ Northeastern University** · Boston, MA · Graduating Dec 2026
+**MS ECE @ Northeastern University** · Boston, MA · Graduating Aug/Dec 2026
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/b71683240)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:joshi.shreyas@northeastern.edu)
@@ -13,9 +13,9 @@
 
 ## About Me
 
-I work at the intersection of **hardware systems and machine learning** — building things that run close to silicon and think with data. My background spans semiconductor equipment engineering, embedded firmware, HPC-scale ML, and computer architecture.
+I work at the intersection of **hardware systems and machine learning**,  building things that run close to silicon and think with data. My background spans semiconductor equipment engineering, embedded firmware, HPC-scale ML, and computer architecture.
 
-Most recently at **Veeco Instruments** (San Jose), I built hybrid LSTM models for early fault detection on Ion Beam Deposition systems, achieving AUC-PR of 0.91 on rare fault classes. I also designed sensor interfacing circuits for robotic end-effector calibration — hardware and ML, not one or the other.
+Most recently at **Veeco Instruments** (San Jose), I built hybrid LSTM models for early fault detection on Ion Beam Deposition systems, achieving AUC-PR of 0.91 on rare fault classes. I also designed sensor interfacing circuits for robotic end-effector calibration: hardware and ML, not one or the other.
 
 I think about problems from both ends: what the silicon is doing, and what the model needs to learn.
 
