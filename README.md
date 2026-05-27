@@ -28,19 +28,26 @@ I think about problems from both ends: what the silicon is doing, and what the m
 | LingBot-VA: Vision-Action Robot Control | INT8 quantization of a vision-action transformer for robot manipulation. 49% inference speedup, 17.2% VRAM reduction, 43.8%→87.5% task success on open_microwave benchmark. Evaluated on A100 GPUs. | PyTorch · INT8 Quantization · A100 HPC |
 | Parallel Image Segmentation (CPU+GPU) | K-means segmentation with OpenMP + SSE4.2 SIMD. 10.78× speedup, 86.9% energy savings. Identified super-linear speedup via cache threshold analysis. Extended Amdahl's Law with 2D parallelism model. | C · OpenMP · SIMD · Intel VTune · Roofline |
 | Secure ECC Communication | Hybrid ECDH + AES-256 encryption with ECDSA authentication. 100% MITM attack detection. ML-based signature anomaly detection. | Python · ECC · AES-256 |
-| Epileptic Seizure Detection | DWT feature extraction on EEG biomedical data. SVM achieved 98% accuracy across benchmarked classifiers. | Python · MATLAB · SVM · DWT |
+
 
 
 ## Experience Highlights
 
 **Veeco Instruments** · Electrical Engineer Co-op · *Jul–Dec 2025*
-> Hybrid LSTM for fault detection on IBD semiconductor systems (AUC-PR 0.91) · Multi-sensor data acquisition pipelines · I2C sensor interfacing for robotic calibration · Equipment diagnostics and validation
+> Built hybrid LSTM model on multi-sensor time-series IBD system data with class balancing — AUC-PR of 0.91 on rare fault detection · Engineered custom data acquisition and preprocessing pipelines integrating hardware diagnostics with ML analytics for predictive maintenance · Designed I2C-based sensor interfacing circuit for robotic end-effector calibration · Performed diagnostics, calibration, and validation of IBD semiconductor processing equipment · Supported system-level electrical design reviews and hardware specification documentation
 
-**Northeastern University** · Teaching Assistant, Digital Design & Computer Architecture · *Jan 2025–Present*
-> Verilog · FPGA (DE1-SoC, Quartus Prime) · Computer Architecture · Promoted from Lab TA to Course + Lab TA
+**Northeastern University** · Teaching Assistant · *Jan 2025–Present*
+> Digital Design & Computer Architecture (EECE 2310) — Promoted from Lab TA to Course + Lab TA · Verilog · FPGA (DE1-SoC, Quartus Prime) · Mentored students through ALUs, binary adders, counters, timing analysis and simulation
+> Analysis of Random Phenomena (EECE 3468) — May–Present
 
 **IEEE CASS Bangalore Chapter** · Student Intern · *Oct–Dec 2023*
 > CRC-16 error detection in Verilog using LFSR · 2nd Runner-Up, Best Internship Presentation across Karnataka State
+
+**Renalyx Health Systems** · Hardware Intern · *Dec 2022–Jan 2023*
+> PCB design and validation in OrCAD · Embedded firmware for Renesas MCUs using E2 Studio · Signal conditioning and power management for biomedical sensors · BOM generation · Hardware validation for dialysis machine · ECO process documentation in a regulated medical device environment
+
+**BHT Technologies** · Product Development Intern · *Oct–Dec 2022*
+> Embedded systems on Arduino, ESP32, ESP32-CAM, Teensy · Wireless protocols: Wi-Fi, BLE, MQTT · IoT sensor interfacing and real-time data transmission · C/C++ and Python microcontroller programming
 
 
 ## Tech Stack
