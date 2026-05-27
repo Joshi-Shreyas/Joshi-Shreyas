@@ -65,9 +65,9 @@ Domain          Semiconductor Manufacturing · Plasma Etch · Digital Twins · P
 
 ## Education
 
-**Northeastern University, Boston** · MS Electrical & Computer Engineering · GPA 3.6 · Dec 2026
+**Northeastern University, Boston** · MS Electrical & Computer Engineering · GPA 3.73 · Aug/Dec 2026
 Concentration: Computer Systems and Software
-*Coursework: Deep Learning, HPC, Computer Architecture, Hardware Security, Embedded Systems*
+*Coursework: Deep Learning Embedded Systems, Machine Learning, High Performance Computing, Computer Architecture, Hardware Security, Data Visualizaiton*
 
 **Bangalore Institute of Technology** · B.E. Electronics & Communication Engineering · GPA 8.89/10 · May 2024
 
