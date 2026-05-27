@@ -2,9 +2,9 @@
 
 # Shreyas Joshi
 
-**MS ECE @ Northeastern University** · Boston, MA · Graduating Aug/Dec 2026
+**MS ECE @ Northeastern University** · Boston, MA · Graduating Dec 2026
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/b71683240)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/joshi-shreyas-ece)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:joshi.shreyas@northeastern.edu)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Joshi-Shreyas)
 
@@ -13,9 +13,9 @@
 
 ## About Me
 
-I work at the intersection of **hardware systems and machine learning**,  building things that run close to silicon and think with data. My background spans semiconductor equipment engineering, embedded firmware, HPC-scale ML, and computer architecture.
+I work at the intersection of **hardware systems and machine learning**, building things that run close to silicon and think with data. My background spans semiconductor equipment engineering, embedded firmware, HPC-scale ML, and computer architecture.
 
-Most recently at **Veeco Instruments** (San Jose), I built hybrid LSTM models for early fault detection on Ion Beam Deposition systems a semiconductor manufacturing equipment, achieving AUC-PR of 0.91 on rare fault classes. I also designed sensor interfacing circuits for robotic end-effector calibration: hardware and ML, not one or the other.
+Most recently at **Veeco Instruments** (San Jose), I built hybrid LSTM models for early fault detection on Ion Beam Deposition systems — semiconductor manufacturing equipment — achieving AUC-PR of 0.91 on rare fault classes. I also designed sensor interfacing circuits for robotic end-effector calibration: hardware and ML, not one or the other.
 
 I think about problems from both ends: what the silicon is doing, and what the model needs to learn.
 
@@ -24,17 +24,17 @@ I think about problems from both ends: what the silicon is doing, and what the m
 
 | Project | What it does | Stack |
 |---|---|---|
-| [Plasma Etch Surrogate Model](https://github.com/Joshi-Shreyas/plasma-surrogate) | Neural network digital twin for plasma etch rate prediction across 300mm wafers. 97.6% accuracy, sub-millisecond inference, 1000x speedup over physical solvers. Trained on Northeastern HPC (SLURM). | PyTorch · NumPy · Matplotlib · SLURM |
+| [CUDA & MPI Parallel Performance Analysis](https://github.com/Joshi-Shreyas/cuda-parallel-performance-analysis) | Coalesced vs non-coalesced CUDA kernel benchmarks on Tesla V100 (5.8× speedup, 640 GB/s peak BW) + distributed MPI histogramming across 1 and 2 HPC nodes — bottleneck isolation via MPI_Scatterv analysis. | CUDA C · OpenMPI · C · Slurm |
+| [Plasma Etch Surrogate Model](https://github.com/Joshi-Shreyas/plasma-surrogate) | Neural network digital twin for plasma etch rate prediction across 300mm wafers. 94.19% accuracy, sub-millisecond inference, 1000× speedup over physical solvers. Trained on Northeastern HPC (Slurm). | PyTorch · NumPy · Matplotlib · Slurm |
 | LingBot-VA: Vision-Action Robot Control | INT8 quantization of a vision-action transformer for robot manipulation. 49% inference speedup, 17.2% VRAM reduction, 43.8%→87.5% task success on open_microwave benchmark. Evaluated on A100 GPUs. | PyTorch · INT8 Quantization · A100 HPC |
-| Parallel Image Segmentation (CPU+GPU) | K-means segmentation with OpenMP + SSE4.2 SIMD. 10.78× speedup, 86.9% energy savings. Identified super-linear speedup via cache threshold analysis. Extended Amdahl's Law with 2D parallelism model. | C · OpenMP · SIMD · Intel VTune · Roofline |
+| Parallel Image Segmentation (CPU+GPU) | K-means segmentation with OpenMP + SSE4.2 SIMD. 10.78× speedup, 86.9% energy savings. Extended Amdahl's Law with 2D parallelism model cutting prediction error from 41–52% to 0–7.8%. | C · OpenMP · SIMD · Intel VTune · Roofline |
 | Secure ECC Communication | Hybrid ECDH + AES-256 encryption with ECDSA authentication. 100% MITM attack detection. ML-based signature anomaly detection. | Python · ECC · AES-256 |
-
 
 
 ## Experience Highlights
 
 **Veeco Instruments** · Electrical Engineer Co-op · *Jul–Dec 2025*
-> Built hybrid LSTM model on multi-sensor time-series IBD (Ion Beam Deposition) system a semiconductor Equipment data with class balancing — AUC-PR of 0.91 on rare fault detection · Engineered custom data acquisition and preprocessing pipelines integrating hardware diagnostics with ML analytics for predictive maintenance · Designed I2C-based sensor interfacing circuit for robotic end-effector calibration · Performed diagnostics, calibration, and validation of IBD semiconductor processing equipment · Supported system-level electrical design reviews and hardware specification documentation
+> Built hybrid LSTM model on multi-sensor time-series IBD (Ion Beam Deposition) semiconductor equipment data with class balancing — AUC-PR of 0.91 on rare fault detection · Engineered custom data acquisition and preprocessing pipelines integrating hardware diagnostics with ML analytics for predictive maintenance · Designed I2C-based sensor interfacing circuit for robotic end-effector calibration · Performed diagnostics, calibration, and validation of IBD semiconductor processing equipment · Supported system-level electrical design reviews and hardware specification documentation
 
 **Northeastern University** · Teaching Assistant · *Jan 2025–Present*
 > Digital Design & Computer Architecture (EECE 2310) — Promoted from Lab TA to Course + Lab TA · Verilog · FPGA (DE1-SoC, Quartus Prime) · Mentored students through ALUs, binary adders, counters, timing analysis and simulation
@@ -54,20 +54,20 @@ I think about problems from both ends: what the silicon is doing, and what the m
 
 ```
 ML & AI         PyTorch · TensorFlow · Scikit-learn · NumPy · SciPy · OpenCV · INT8 Quantization
+GPU & HPC       CUDA · Slurm · OpenMP · SIMD/SSE · OpenMPI · Intel VTune · Roofline Analysis
 Systems         x86 · RISC-V · ARM · FPGA (Quartus, Xilinx) · Verilog · VHDL · Linux
-HPC             SLURM · OpenMP · SIMD/SSE · MPI · Intel VTune · Roofline Analysis · CUDA
 Embedded        Arduino · ESP32 · Teensy · I2C · SPI · UART · BLE · MQTT
 EDA & Tools     Cadence Allegro · OrCAD · PSpice · ModelSim · SolidWorks
-Languages       Python · C/C++ · Java · MATLAB · Bash
+Languages       Python · C/C++ · CUDA C · Java · MATLAB · Bash
 Domain          Semiconductor Manufacturing · Plasma Etch · Digital Twins · Predictive Maintenance
 ```
 
 
 ## Education
 
-**Northeastern University, Boston** · MS Electrical & Computer Engineering · GPA 3.73 · Aug/Dec 2026
+**Northeastern University, Boston** · MS Electrical & Computer Engineering · GPA 3.6 · Dec 2026
 Concentration: Computer Systems and Software
-*Coursework: Deep Learning Embedded Systems, Machine Learning, High Performance Computing, Computer Architecture, Hardware Security, Data Visualizaiton*
+*Coursework: Deep Learning, Embedded Systems, Machine Learning, High Performance Computing, Computer Architecture, Hardware Security, Data Visualization*
 
 **Bangalore Institute of Technology** · B.E. Electronics & Communication Engineering · GPA 8.89/10 · May 2024
 
