@@ -34,7 +34,7 @@ I think about problems from both ends: what the silicon is doing, and what the m
 ## Experience Highlights
 
 **Veeco Instruments** · Electrical Engineer Co-op · *Jul–Dec 2025*
-> Built hybrid LSTM model on multi-sensor time-series IBD system data with class balancing — AUC-PR of 0.91 on rare fault detection · Engineered custom data acquisition and preprocessing pipelines integrating hardware diagnostics with ML analytics for predictive maintenance · Designed I2C-based sensor interfacing circuit for robotic end-effector calibration · Performed diagnostics, calibration, and validation of IBD semiconductor processing equipment · Supported system-level electrical design reviews and hardware specification documentation
+> Built hybrid LSTM model on multi-sensor time-series IBD (Ion Beam Deposition) system a semiconductor Equipment data with class balancing — AUC-PR of 0.91 on rare fault detection · Engineered custom data acquisition and preprocessing pipelines integrating hardware diagnostics with ML analytics for predictive maintenance · Designed I2C-based sensor interfacing circuit for robotic end-effector calibration · Performed diagnostics, calibration, and validation of IBD semiconductor processing equipment · Supported system-level electrical design reviews and hardware specification documentation
 
 **Northeastern University** · Teaching Assistant · *Jan 2025–Present*
 > Digital Design & Computer Architecture (EECE 2310) — Promoted from Lab TA to Course + Lab TA · Verilog · FPGA (DE1-SoC, Quartus Prime) · Mentored students through ALUs, binary adders, counters, timing analysis and simulation
