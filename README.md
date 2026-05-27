@@ -15,7 +15,7 @@
 
 I work at the intersection of **hardware systems and machine learning**,  building things that run close to silicon and think with data. My background spans semiconductor equipment engineering, embedded firmware, HPC-scale ML, and computer architecture.
 
-Most recently at **Veeco Instruments** (San Jose), I built hybrid LSTM models for early fault detection on Ion Beam Deposition systems, achieving AUC-PR of 0.91 on rare fault classes. I also designed sensor interfacing circuits for robotic end-effector calibration: hardware and ML, not one or the other.
+Most recently at **Veeco Instruments** (San Jose), I built hybrid LSTM models for early fault detection on Ion Beam Deposition systems a semiconductor manufacturing equipment, achieving AUC-PR of 0.91 on rare fault classes. I also designed sensor interfacing circuits for robotic end-effector calibration: hardware and ML, not one or the other.
 
 I think about problems from both ends: what the silicon is doing, and what the model needs to learn.
 
